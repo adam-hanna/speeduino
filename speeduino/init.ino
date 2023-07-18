@@ -1338,7 +1338,7 @@ void setPinMapping(byte boardID)
       pinTrigger2 = 21; //The Cam Sensor pin
       pinTrigger3 = 3; //The Cam sensor 2 pin
       pinTPS = A2; //TPS input pin
-      pinMAP = A3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
       pinO2 = A8; //O2 Sensor pin
@@ -1372,7 +1372,7 @@ void setPinMapping(byte boardID)
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTrigger3 = 3; //The Cam sensor 2 pin
       pinTPS = A2;//TPS input pin
-      pinMAP = A3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
       pinO2 = A8; //O2 Sensor pin
@@ -1426,7 +1426,7 @@ void setPinMapping(byte boardID)
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTrigger3 = 3; //The Cam sensor 2 pin
       pinTPS = A2;//TPS input pin
-      pinMAP = A3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
       pinO2 = A8; //O2 Sensor pin
@@ -1469,7 +1469,7 @@ void setPinMapping(byte boardID)
       #elif defined(CORE_TEENSY41)
         //These are only to prevent lockups or weird behaviour on T4.1 when this board is used as the default
         pinBaro = A4; 
-        pinMAP = A5;
+        pinMAP = A9;
         pinTPS = A3; //TPS input pin
         pinIAT = A0; //IAT sensor pin
         pinCLT = A1; //CLS sensor pin
@@ -1618,7 +1618,7 @@ void setPinMapping(byte boardID)
         pinCoil3 = PB3; //Pin for coil 3
         pinCoil4 = PA15; //Pin for coil 4
         pinTPS = A2;//TPS input pin
-        pinMAP = A3; //MAP sensor pin
+        pinMAP = A9; //MAP sensor pin
         pinIAT = A0; //IAT sensor pin
         pinCLT = A1; //CLS sensor pin
         pinO2 = A8; //O2 Sensor pin
@@ -1656,7 +1656,7 @@ void setPinMapping(byte boardID)
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTrigger3 = 2; //The Cam sensor 2 pin
       pinTPS = A2;//TPS input pin
-      pinMAP = A5; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
       pinO2 = A3; //O2 Sensor pin
@@ -1709,7 +1709,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 19; //The CAS pin
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTPS = A2;//TPS input pin
-      pinMAP = A5; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
       pinO2 = A3; //O2 Sensor pin
@@ -1761,7 +1761,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 19; //The CAS pin
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTPS = A2;//TPS input pin
-      pinMAP = A5; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
       pinO2 = A3; //O2 Sensor pin
@@ -1818,7 +1818,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 18; //The CAS pin
       pinTrigger2 = 19; //The Cam Sensor pin
       pinTPS = A2;//TPS input pin
-      pinMAP = A3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinMAP2 = A8; //MAP2 sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
@@ -1862,7 +1862,7 @@ void setPinMapping(byte boardID)
       pinSpareTemp1 = A14; //spare Analog input 1
       pinO2 = A8; //O2 Sensor pin
       pinBat = A4; //Battery reference voltage pin
-      pinMAP = A3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinTPS = A2;//TPS input pin
       pinCLT = A1; //CLS sensor pin
       pinIAT = A0; //IAT sensor pin
@@ -1890,11 +1890,11 @@ void setPinMapping(byte boardID)
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTrigger3 = 17; // cam sensor 2 pin, pin17 isn't external trigger enabled in arduino mega??
       pinTPS = A2;//TPS input pin
-      pinMAP = A3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLS sensor pin
       pinO2 = A8; //O2 Sensor pin
-      pinO2_2 = A9; //O2 sensor pin (second sensor)
+      pinO2_2 = A3; //O2 sensor pin (second sensor)
       pinBat = A4; //Battery reference voltage pin
       pinDisplayReset = 48; // OLED reset pin
       pinTachOut = 49; //Tacho output pin
@@ -1938,7 +1938,7 @@ void setPinMapping(byte boardID)
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTrigger3 = 20; //The Cam sensor 2 pin
       pinTPS = A2;//TPS input pin
-      pinMAP = A3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinEMAP = A15; //EMAP sensor pin
       pinIAT = A0; //IAT sensor pin
       pinCLT = A1; //CLT sensor pin
@@ -1986,7 +1986,7 @@ void setPinMapping(byte boardID)
       pinTrigger = PD3; //The CAS pin
       pinTrigger2 = PD4; //The Cam Sensor pin
       pinTPS = PA2;//TPS input pin
-      pinMAP = PA3; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinEMAP = PC5; //EMAP sensor pin
       pinIAT = PA0; //IAT sensor pin
       pinCLT = PA1; //CLS sensor pin
@@ -2034,7 +2034,7 @@ void setPinMapping(byte boardID)
       pinTrigger2 = 18; //The Cam Sensor pin
       pinTrigger3 = 21; //The Cam sensor 2 pin
       pinTPS = A3; //TPS input pin
-      pinMAP = A0; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin; note: overriding to spare input 2
       pinIAT = A5; //IAT sensor pin
       pinCLT = A4; //CLT sensor pin
       pinO2 = A2; //O2 sensor pin
@@ -2080,12 +2080,12 @@ void setPinMapping(byte boardID)
       pinTrigger3 = 3; //The Cam sensor 2 pin
       pinFlex = 20; // Flex sensor
       pinTPS = A3; //TPS input pin
-      pinMAP = A0; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinBaro = A7; //Baro sensor pin
       pinIAT = A5; //IAT sensor pin
       pinCLT = A4; //CLS sensor pin
       pinO2 = A1; //O2 Sensor pin
-      pinO2_2 = A9; //O2 sensor pin (second sensor)
+      pinO2_2 = A0; //O2 sensor pin (second sensor)
       pinBat = A2; //Battery reference voltage pin
       pinSpareTemp1 = A8; //spare Analog input 1
       pinLaunch = 37; //Can be overwritten below
@@ -2127,7 +2127,7 @@ void setPinMapping(byte boardID)
       pinTrigger3 = 21;// The Cam sensor 2 pin
       pinFlex = 20; // Flex sensor
       pinTPS = A3; //TPS input pin
-      pinMAP = A2; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinBaro = A15; //Baro sensor pin
       pinIAT = A11; //IAT sensor pin
       pinCLT = A4; //CLS sensor pin
@@ -2176,7 +2176,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 23; //The CAS pin
       pinTrigger2 = 36; //The Cam Sensor pin
       pinTPS = 16; //TPS input pin
-      pinMAP = 17; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = 14; //IAT sensor pin
       pinCLT = 15; //CLT sensor pin
       pinO2 = A22; //O2 sensor pin
@@ -2209,7 +2209,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 23; //The CAS pin
       pinTrigger2 = 36; //The Cam Sensor pin
       pinTPS = 16; //TPS input pin
-      pinMAP = 17; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = 14; //IAT sensor pin
       pinCLT = 15; //CLT sensor pin
       pinO2 = A22; //O2 sensor pin
@@ -2244,7 +2244,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 37; //The CAS pin
       pinTrigger2 = 38; //The Cam Sensor pin - NOT USED
       pinTPS = A2; //TPS input pin
-      pinMAP = A7; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinIAT = A1; //IAT sensor pin
       pinCLT = A5; //CLT sensor pin
       pinO2 = A0; //O2 sensor pin
@@ -2281,7 +2281,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 19; //The CAS pin
       pinTrigger2 = 18; //The Cam Sensor pin
       pinFlex = A16; // Flex sensor
-      pinMAP = A1; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinBaro = A0; //Baro sensor pin
       pinBat = A14; //Battery reference voltage pin
       pinSpareTemp1 = A17; //spare Analog input 1
@@ -2324,7 +2324,7 @@ void setPinMapping(byte boardID)
 
         //New pins for the actual T4.1 version of the Dropbear
         pinBaro = A4; 
-        pinMAP = A5;
+        pinMAP = A9;
         pinTPS = A3; //TPS input pin
         pinIAT = A0; //IAT sensor pin
         pinCLT = A1; //CLS sensor pin
@@ -2393,7 +2393,7 @@ void setPinMapping(byte boardID)
       pinTrigger = 20; //The CAS pin
       pinTrigger2 = 21; //The Cam Sensor pin
       pinFlex = 37; // Flex sensor
-      pinMAP = A5; //MAP sensor pin
+      pinMAP = A9; //MAP sensor pin
       pinBaro = A4; //Baro sensor pin
       pinBat = A15; //Battery reference voltage pin
       pinTPS = A3; //TPS input pin
@@ -2544,7 +2544,7 @@ void setPinMapping(byte boardID)
         pinCoil3 = PB3; //Pin for coil 3
         pinCoil4 = PA15; //Pin for coil 4
         pinTPS = A2;//TPS input pin
-        pinMAP = A3; //MAP sensor pin
+        pinMAP = A9; //MAP sensor pin
         pinIAT = A0; //IAT sensor pin
         pinCLT = A1; //CLS sensor pin
         pinO2 = A8; //O2 Sensor pin
@@ -2579,7 +2579,7 @@ void setPinMapping(byte boardID)
         pinCoil4 = PA9; //Pin for coil 4
         pinCoil5 = PA8; //Pin for coil 5
         pinTPS = A0; //TPS input pin
-        pinMAP = A1; //MAP sensor pin
+        pinMAP = A9; //MAP sensor pin
         pinIAT = A2; //IAT sensor pin
         pinCLT = A3; //CLS sensor pin
         pinO2 = A4; //O2 Sensor pin
@@ -2728,7 +2728,7 @@ void setPinMapping(byte boardID)
         pinTrigger = 20; //The CAS pin
         pinTrigger2 = 21; //The Cam Sensor pin
         pinTPS = A2; //TPS input pin
-        pinMAP = A3; //MAP sensor pin
+        pinMAP = A9; //MAP sensor pin
         pinIAT = A0; //IAT sensor pin
         pinCLT = A1; //CLS sensor pin
         #ifdef A8 //Bit hacky, but needed for the atmega2561
