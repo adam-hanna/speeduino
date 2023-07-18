@@ -1483,7 +1483,7 @@ void setPinMapping(byte boardID)
       #elif defined(CORE_TEENSY41)
         //These are only to prevent lockups or weird behaviour on T4.1 when this board is used as the default
         pinBaro = A4; 
-        pinMAP = A5;
+        pinMAP = A9;
         pinTPS = A3; //TPS input pin
         pinIAT = A0; //IAT sensor pin
         pinCLT = A1; //CLS sensor pin
@@ -2338,7 +2338,7 @@ void setPinMapping(byte boardID)
 
         //New pins for the actual T4.1 version of the Dropbear
         pinBaro = A4; 
-        pinMAP = A5;
+        pinMAP = A9;
         pinTPS = A3; //TPS input pin
         pinIAT = A0; //IAT sensor pin
         pinCLT = A1; //CLS sensor pin
