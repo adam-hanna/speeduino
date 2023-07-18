@@ -441,14 +441,6 @@ static void processTemperatureCalibrationTableUpdate(uint16_t calibrationLength,
 // ====================================== End Internal Functions =============================
 
 
-/**
- * @brief      Flush all remaining bytes from the rx serial buffer
- */
-void flushRXbuffer()
-{
-  while (Serial.available() > 0) { Serial.read(); }
-}
-
 /** Processes the incoming data on the serial buffer based on the command sent.
 Can be either data for a new command or a continuation of data for command that is already in progress:
 
